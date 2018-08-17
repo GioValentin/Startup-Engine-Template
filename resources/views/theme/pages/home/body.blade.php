@@ -41,7 +41,7 @@
         </div>
         <div style="margin:0px 50px 50px 50px;padding-top:0px;">
             <a href="/features" class="btn btn-secondary-outline btn-simple btn-round">
-                {!! $page->content()->features->button !!}
+                {!! $page->content()->heading->button !!}
             </a>
         </div>
     </div>
