@@ -8,6 +8,7 @@
     "heading": {
       "title": "Heading",
       "slug": "heading",
+      "image": "https:\/\/images.unsplash.com\/photo-1463171379579-3fdfb86d6285?auto=format&fit=crop&w=1950&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D",
       "fields": {
         "headline": {
           "type": "text",
@@ -145,6 +146,7 @@
           "button": "Learn More",
           "link": "\/analytics",
           "background": "https:\/\/images.unsplash.com\/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1950&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D",
+          "image": "https:\/\/images.unsplash.com\/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1950&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D",
           "intro": "Automatically validate, market, and sell your product.",
           "headersize": "large",
           "footer": null
