@@ -26,7 +26,7 @@
     <div class="card" id="more"
          style="max-width:90%;background:#fff;box-shadow:0px 0px 50px rgba(0,0,200,0.10);border-radius:10px;margin-bottom:50px;margin-top:-100px;">
         <div class="card-body" style="min-height:150px;">
-            <h5 style="padding-bottom:50px;border-bottom:1px solid rgba(0,0,0,0.1);">{{ $page->content()->features->headline}}</h5>
+            <h5 style="padding-bottom:50px;border-bottom:1px solid rgba(0,0,0,0.1);">{{ $page->content()->heading->headline}}</h5>
             <?php $features = \App\Post::where('post_type', '=', 'feature')->where('status', '=', 'PUBLISHED')->limit(4)->get(); ?>
             @foreach($features as $feature)
                 <div class="card" style="box-shadow:none;">
